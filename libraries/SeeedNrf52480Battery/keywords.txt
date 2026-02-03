@@ -1,0 +1,35 @@
+############################################
+# Syntax Coloring Map For SeeedNrf52480Battery
+############################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SeeedNrf52480Battery	KEYWORD1
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+isCharging                  KEYWORD2
+setChargeCurrent100mA       KEYWORD2
+setChargeCurrent50mA        KEYWORD2
+        
+enableVoltageReading        KEYWORD2
+setSampleSize               KEYWORD2
+
+getVoltage                  KEYWORD2
+getPercentage               KEYWORD2
+setVoltageDividerRatio      KEYWORD2
+getVoltageDividerRatio      KEYWORD2
+updateVoltageReading        KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+PIN_BATTERY_CURRENT_PIN     LITERAL1
+PIN_CHARGING_INV            LITERAL1
+Footer
